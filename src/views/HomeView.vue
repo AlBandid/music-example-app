@@ -103,7 +103,7 @@ export default {
             :key="song.docID"
             class="flex justify-between items-center p-3 pl-6 cursor-pointer transition duration-300 hover:bg-gray-50"
           >
-            <song-item :song="song" />
+            <song-item :song="song" :id="`song-id-${song.docID}`" />
           </li>
         </ol>
         <!-- .. end Playlist -->
