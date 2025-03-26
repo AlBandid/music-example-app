@@ -10,6 +10,9 @@ import vercel from 'vite-plugin-vercel'
 
 // https://vite.dev/config/
 export default defineConfig({
+  test: {
+    globals: true,
+  },
   plugins: [
     vue(),
     vueDevTools(),
