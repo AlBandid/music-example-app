@@ -1,0 +1,12 @@
+{
+  "home": {
+    "introductionHeader": "Słuchaj muzyki bez oganiczeń!"
+  },
+  "song": {
+    "comment_count": "Brak komentarzy | {n} komentarz | {n} komentarze | {n} komentarzy"
+  },
+  "register": {
+    "accept_tos": "Akceptuję {0} Music",
+    "tos": "Warunki Użytkowania Serwisu"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "home": {
+    "introductionHeader": "Listen to Great Music!"
+  },
+  "song": {
+    "comment_count": "No comments | 1 comment | {n} comments"
+  },
+  "register": {
+    "accept_tos": "I accept Music's {0}",
+    "tos": "Terms of Service"
+  }
+}
