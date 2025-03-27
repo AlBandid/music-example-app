@@ -86,7 +86,7 @@ export default {
       <div class="bg-white rounded border border-gray-200 relative flex flex-col">
         <div class="px-6 pt-6 pb-5 font-bold border-b border-gray-200" v-icon.right="'comments'">
           <!-- Comment Count -->
-          <p v-if="song.comment_count === undefined">{{ song.toJSON() }}</p>
+          <!--          <p v-if="song.comment_count === undefined">{{ song.toJSON() }}</p>-->
           <span class="card-title">{{ $t('song.comment_count', song.comment_count) }}</span>
         </div>
         <div class="p-6">

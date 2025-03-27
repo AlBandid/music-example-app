@@ -31,7 +31,7 @@ export default {
     <div class="relative">
       <!-- Play/Pause Button -->
       <div class="float-left w-7 h-7 leading-3">
-        <button type="button" @click.prevent="toggleAudio">
+        <button id="player-play-btn" type="button" @click.prevent="toggleAudio">
           <i
             class="text-gray-500 text-xl cursor-pointer"
             :class="{ 'fa fa-play': !playing, 'fa fa-pause': playing }"
