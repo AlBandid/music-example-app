@@ -9,7 +9,7 @@ describe('SongItem.vue', () => {
 
     //we can also do mount(compName, {shallow: true})
     const wrapper = shallowMount(SongItem, {
-      propsData: {
+      props: {
         song,
       },
       global: {
