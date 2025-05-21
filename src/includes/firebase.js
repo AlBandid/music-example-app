@@ -15,12 +15,7 @@ import { getStorage } from 'firebase/storage'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyCnFTGLfNeH54QiNAthI5klHhlm--mSLqI',
-  authDomain: 'solid-dominion-452212-c3.firebaseapp.com',
-  projectId: 'solid-dominion-452212-c3',
-  storageBucket: 'solid-dominion-452212-c3.firebasestorage.app',
-  messagingSenderId: '968135681876',
-  appId: '1:968135681876:web:62d2c17414e4f663d54ac1',
+  //my config
 }
 
 // Initialize Firebase
